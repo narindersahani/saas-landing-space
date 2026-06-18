@@ -22,7 +22,7 @@ I specialize in converting Figma designs into pixel-perfect, production-ready we
 
 ---
 
-## 💻 Tech Stack
+## 💻 My Skills in Tech Stack
 
 ### Frontend
 
@@ -35,11 +35,6 @@ I specialize in converting Figma designs into pixel-perfect, production-ready we
 - Tailwind CSS
 - Bootstrap
 
-### Backend
-
-- Node.js
-- PHP
-- Laravel
 
 ### CMS
 
@@ -51,7 +46,6 @@ I specialize in converting Figma designs into pixel-perfect, production-ready we
 - GitHub
 - VS Code
 - Figma
-- Photoshop
 
 ---
 
@@ -85,11 +79,11 @@ I specialize in converting Figma designs into pixel-perfect, production-ready we
 
 ### Upwork
 
-https://www.upwork.com/fl/narinderk2
+https://www.upwork.com/freelancers/narinderk2
 
 ### Website
 
-https://inventivelake.com
+https://www.inventivelake.com/
 
 ---
 
@@ -106,10 +100,10 @@ https://inventivelake.com
 ## 📫 Contact
 
 Email:
-inventivelake@gmail.com
+narindersahani@gmail.com
 
 LinkedIn:
-https://www.linkedin.com/in/narinder-sahani
+https://www.linkedin.com/in/narinder-s-943b3654/
 
 Website:
 https://inventivelake.com
@@ -125,3 +119,102 @@ I am available for:
 - Freelance Projects
 - Contract Work
 - Long-Term Remote Opportunities
+
+
+---
+
+## 🛠️ Getting Started
+
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/narindersahani/saas-landing-space
+```
+
+### Navigate to Project Directory
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+in your browser.
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+### Start Production Server
+
+```bash
+npm start
+```
+
+---
+
+## 🧹 Run Linting
+
+```bash
+npm run lint
+```
+
+---
+
+## ⚡ Tech Stack
+
+- Next.js 15+
+- React 19
+- TypeScript
+- Tailwind CSS
+- ESLint
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/
+├── components/
+├── lib/
+├── hooks/
+├── types/
+├── utils/
+└── assets/
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you find this project useful, please consider giving it a star on GitHub.
