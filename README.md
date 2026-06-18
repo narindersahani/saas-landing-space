@@ -202,9 +202,7 @@ npm run lint
 src/
 ├── app/
 ├── components/
-├── lib/
-├── hooks/
-├── types/
+├── constant/
 ├── utils/
 └── assets/
 ```
