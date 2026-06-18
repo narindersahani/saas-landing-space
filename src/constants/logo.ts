@@ -1,0 +1,1 @@
+export const logos = ["VIO EMPOWER", "B-TECHNET", "THIRD VISION", "Zenetics"];
