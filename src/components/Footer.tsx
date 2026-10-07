@@ -13,25 +13,25 @@ import LogoLight from "./LogoLight";
     return (
       <footer id="contact" className="bg-slate-950 text-white">
         <div className="container-x py-20">
-          <div className="grid gap-14 lg:grid-cols-[1.5fr_repeat(4,1fr)]">
+          <div className="grid gap-10 md:grid-cols-12">
             {/* Brand */}
-            <div>
+            <div className="col-span-5 lg:col-span-4">
               <a
                 href="#"
                 className="flex items-center gap-2 text-2xl font-extrabold"
               >
-                <LogoLight className="text-gray-100" />
+                <LogoLight />
               </a>
   
               <p className="mt-6 max-w-sm text-sm leading-7 text-white/60">
-                InventiveLake helps modern teams streamline workflows,
+                FoliviaDash helps modern teams streamline workflows,
                 collaborate efficiently, and manage projects from a
                 single platform.
               </p>
   
               <div className="mt-8 space-y-3 text-sm text-white/70">
                 <p>+1 (888) 123-4567</p>
-                <p>hello@InventiveLake.com</p>
+                <p>hello@FoliviaDash.com</p>
               </div>
   
               <div className="mt-8 flex flex-wrap gap-3">
@@ -58,7 +58,7 @@ import LogoLight from "./LogoLight";
                     className="flex-1 px-4 py-3 text-sm text-slate-900 outline-none"
                   />
   
-                  <button className="bg-primary px-5 text-sm font-semibold text-white transition hover:bg-[#2f1fff] cursor-pointer">
+                  <button className="bg-primary px-3 sm:px-5 text-sm font-semibold text-white transition hover:bg-[#2f1fff] cursor-pointer">
                     Subscribe
                   </button>
                 </div>
@@ -66,32 +66,36 @@ import LogoLight from "./LogoLight";
             </div>
   
             {/* Links */}
-            {footerLinks.map((group) => (
-              <div key={group.title}>
-                <h3 className="font-semibold text-white">
-                  {group.title}
-                </h3>
-  
-                <ul className="mt-6 space-y-4">
-                  {group.links.map((link) => (
-                    <li key={link}>
-                      <a
-                        href="#"
-                        className="text-sm text-white/60 transition-colors hover:text-white"
-                      >
-                        {link}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+            <div className="col-span-7 lg:col-span-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-6">  
+                {footerLinks.map((group) => (
+                  <div key={group.title}>
+                    <h3 className="font-semibold text-white">
+                      {group.title}
+                    </h3>
+      
+                    <ul className="mt-6 space-y-4">
+                      {group.links.map((link) => (
+                        <li key={link}>
+                          <a
+                            href="#"
+                            className="text-sm text-white/60 transition-colors hover:text-white"
+                          >
+                            {link}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
   
           <div className="mt-16 border-t border-white/10 pt-8">
             <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
               <p className="text-sm text-white/50">
-                © {new Date().getFullYear()} InventiveLake. All rights reserved.
+                © {new Date().getFullYear()} FoliviaDash. All rights reserved.
               </p>
   
               <div className="flex items-center gap-3">

@@ -15,16 +15,16 @@ export default function Header() {
     <>
     <header className="container-x flex h-20 items-center justify-between">
       <a className="" href="#">
-        <Logo className="text-primary" />
+        <Logo/>
       </a>
-      <nav className="hidden items-center gap-8 text-md font-semibold text-[#27324c] md:flex">
+      <nav className="hidden items-center gap-8 text-md font-semibold text-[#27324c] lg:flex">
         {navItems.map((item, index) => (
           <a key={index} href={item.url} className="hover:text-[#3927ff]">
             {item.label}
           </a>
         ))}
       </nav>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <ElasticButton 
           text="Get Started Free"
           href="#"
@@ -36,7 +36,7 @@ export default function Header() {
         Get Started Free
       </Link> */}
       <button
-        className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-[#e7ebf5] bg-white text-[#17213a] md:hidden"
+        className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-[#e7ebf5] bg-white text-[#17213a] lg:hidden"
         aria-label="Open navigation"
         aria-expanded={isMenuOpen}
         onClick={() => setIsMenuOpen(true)}
@@ -46,7 +46,7 @@ export default function Header() {
 
       {isMenuOpen ? (
         <motion.button
-          className="fixed inset-0 z-40 bg-[#101b34]/42 backdrop-blur-[2px] md:hidden"
+          className="fixed inset-0 z-40 bg-[#101b34]/42 backdrop-blur-[2px] lg:hidden"
           aria-label="Close navigation"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -56,7 +56,7 @@ export default function Header() {
       ) : null}
 
       <motion.aside
-        className="fixed inset-y-0 left-0 z-50 flex w-[min(90vw,340px)] flex-col bg-white p-6 shadow-2xl shadow-[#101b34]/20 md:hidden"
+        className="fixed inset-y-0 left-0 z-50 flex w-[min(90vw,340px)] flex-col bg-white p-6 shadow-2xl shadow-[#101b34]/20 lg:hidden"
         initial={false}
         animate={isMenuOpen ? { x: 0 } : { x: "-105%" }}
         transition={{ type: "spring", stiffness: 380, damping: 36 }}
@@ -64,7 +64,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between">
           <a className="flex items-center gap-1.5 font-extrabold text-[#152243]" href="#" onClick={closeMenu}>
-          <Logo className="text-primary" width="180" />
+          <Logo width="180" />
           </a>
           <button
             className="grid h-10 w-10 place-items-center rounded-md border border-[#e7ebf5] text-[#17213a]"

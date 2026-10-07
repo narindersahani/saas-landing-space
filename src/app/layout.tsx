@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IL - Smart SaaS Landing Page",
+  title: "FoliviaDash - Smart SaaS Landing Page",
   description: "A modern SaaS landing page built with Next.js, Tailwind CSS 4, and Motion.",
 };
 
